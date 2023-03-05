@@ -50,12 +50,23 @@
         app:layout_constraintTop_toBottomOf="@id/homeTxt" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newProductRcv"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         android:orientation="horizontal"
         app:layout_constraintTop_toBottomOf="@id/newProductTxt"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productRcv"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/newProductRcv"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
